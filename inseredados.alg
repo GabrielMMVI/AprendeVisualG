@@ -16,7 +16,6 @@ var
 inicio
 // Seção de Comandos
 
-
    Escreva("Informe o cliente: ")
    leia(cliente)
    Escreval("Cliente: ", cliente)
@@ -43,10 +42,8 @@ inicio
    Escreval
    Escreva("Compra efetuada?")
    leia(compraEfetuada)
-   se (compraEfetuada <- s) entao
-   Escreva("Compra realizada!")
-   senao
-   ("Compra negada!")
+   Escreval
+   Escreval(compraEfetuada)
    
    
    
