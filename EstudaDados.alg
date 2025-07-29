@@ -23,14 +23,16 @@ inicio
       produto <- "Fone ouvido bluetooth Lenovo"
       compraSimNao <- VERDADEIRO //Em visualG se apresenta somente valores de VERDADEIRO E FALSO
       
-      Escreval(quantidade)
-      Escreval(preco)
-      Escreval(totalPagar)
-      Escreval(cliente)
-      Escreval(produto)
-      Escreval(compraSimNao)
+      Escreval(quantidade) //Escreve o valor determinado na quantidade
+      Escreval(preco) //Escreve preco
+      Escreval(totalPagar) //Escreve total a pagar
+      Escreval(cliente)                           //Escreve cliente
+      Escreval(produto)                                            //Escreve produto
+      Escreval(compraSimNao)                                                        //Escreve fator lógico
       Escreval
-      Escreval("O cliente ", cliente, " comprou ", quantidade, " de ", produto, " preço individual: ", preco, " total: ",totalPagar)
+      Escreval("O cliente " , cliente, " comprou ", quantidade, " de ", produto, " preço individual: ", preco, " total: ",totalPagar)
+      //Vai escrevendo dados e fundindo os valores salvos ao texto. ^^ Coloca um espaço depois de uma String pro texto final não ficar tudo junto
+      //e a vírgula vai separando os dados
 
 
 fimalgoritmo
