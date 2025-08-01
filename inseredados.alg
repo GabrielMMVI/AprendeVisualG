@@ -16,6 +16,9 @@ var
 inicio
 // Seção de Comandos
 
+compraEfetuada <- VERDADEIRO <- s
+compraEFETUADA <- FALSO <- n
+
    Escreva("Informe o cliente: ")
    leia(cliente)
    Escreval("Cliente: ", cliente)
