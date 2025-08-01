@@ -38,4 +38,10 @@ Escreval("1a prova: ", nota1)
 Escreval("2a prova: ", nota2)
 Escreval("3a prova: ", nota3)
 Escreval("4a prova: ",nota4)
+Escreval
+Escreval
+
+media <- (nota1 + nota2 + nota3 + nota4)/4
+
+Escreva("A média do aluno ", aluno, " é:", media)
 fimalgoritmo
