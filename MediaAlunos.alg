@@ -5,11 +5,7 @@ algoritmo "MediaAlunos"
 // Seção de Declarações
 
 var
-nota1 : real
-nota2 : real
-nota3 : real
-nota4 : real
-media : real
+nota1, nota2, nota3, nota4, media : real //Quando forem dados do mesmo tipo, pode separar por ','
 aluno : caractere
 
 inicio
@@ -17,6 +13,7 @@ inicio
 Escreva("Digite o nome do aluno:", aluno)
 leia(aluno)
 Escreval("Aluno: ", aluno)
+
 Escreva("Digite a nota da primeira prova: ")
 leia(nota1)
 Escreval("1a prova: ", nota1)
