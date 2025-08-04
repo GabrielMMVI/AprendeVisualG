@@ -5,7 +5,7 @@ algoritmo "ExercicioSeMedia"
 // Seção de Declarações 
 var
 
-nota1, nota2, nota3, nota4, media, notaRecu, mediafFinal : real
+nota1, nota2, nota3, nota4, media, notaRecu, mediaFinal : real
 nomeAluno : caractere
 
 
@@ -47,12 +47,22 @@ senao
      leia(notaRecu)
      Escreval
      
-     mediaFinal <- media + notaRecu
+     mediaFinal <- (media + notaRecu) /2
+
+     
+
+         se (mediaFinal < 7) entao
+         Escreval("A nota final desse aluno é: ", mediaFinal)
+         Escreval ("Situação final do aluno: REPROVADO")
+         
+         senao
      
      Escreval("A nota final desse aluno é: ", mediaFinal)
      Escreval("Situação do aluno: Em recuperação.")
      Escreval("Situação final do aluno: APROVADO (recuperação)")
+         
 
-
+     
 fimse
+    fimse
 fimalgoritmo
