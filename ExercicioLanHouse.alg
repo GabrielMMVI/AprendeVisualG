@@ -26,6 +26,6 @@ precoHora <- hora*2
 
 Escreval
 Escreval
-Escreval("Preço por hora: R$2,00 || Preço cobrado: ", precoHora)
+Escreval("Preço por hora: R$2,00 || Preço cobrado: R$", precoHora)
 
 fimalgoritmo
