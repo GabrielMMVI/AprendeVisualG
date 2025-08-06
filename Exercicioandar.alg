@@ -5,7 +5,7 @@ algoritmo "ExercicioPredio"
 var
 
 andar : inteiro
-precoApto : real
+precoApto : caractere
 
 inicio
 
@@ -16,29 +16,26 @@ leia(andar)
 Escolha andar
 
         caso 1
-             precoApto <- 200000.00
-             
+             precoApto <- "O preço dos apartamentos nesse andar é: 200.000"
+
         caso 2, 3, 4
-             precoApto <- 220000.00
-             
+             precoApto <- "O preço dos apartamentos nesse andar é: 220.000"
+
         caso 5, 6, 7
-             precoApto <- 250000.00
-             
+             precoApto <- "O preço dos apartamentos nesse andar é: 250.000"
+
         caso 8, 9, 10
-             precoApto <- 300000.00
-             
+             precoApto <- "O preço dos apartamentos nesse andar é: 300.000"
+
         caso 11, 12, 13, 14, 15, 16, 17, 18
-             precoApto <- 500000.00
-             
-                   se (andar > 18) entao
-                      Escreval("Andar indisponível!!!")
-                   fimSe
-             
-             
+             precoApto <- "O preço dos apartamentos nesse andar é: 500.000"
+
+                  outrocaso
+                           precoApto <- "Andar indisponível!"
+
+
 FimEscolha
 
-
-
-Escreval("Os apartamentos no andar ", andar, " custam R$", precoApto)
+Escreval(precoApto)
 
 fimalgoritmo
