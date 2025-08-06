@@ -13,7 +13,7 @@ leia(num)
 
 Escreval("Número: ", num)
 
-se (num % 2 = 0) entao
+se (num % 2 = 0) entao    // O operador % ou mod indica o resto de uma divisão
 Escreval("O número: '", num, "' é par.")
 senao
 Escreval("O número: '", num, "' é ímpar")
