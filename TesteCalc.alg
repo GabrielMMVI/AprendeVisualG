@@ -26,15 +26,14 @@ resulMult : real
 
 
 inicio
+  Escreval(" =-= CALCULADORA DE SUBTRAÇÃO =-= ")
+                      leia(numSubt1)
 
-                      Escreval(" =x= CALCULADORA DE MULTIPLICAÇÃO =x= ")
-                      leia(numMult1)
+                      Escreva(numSubt1, " - ")
+                      leia(numSubt2)
+                      Escreval(numSubt1, " -", numSubt2)
 
-                      Escreva(numMult1, " x ")
-                      leia(numMult2)
-                      Escreval(numMult1, " x", numMult2)
+                      resulSubt <- numSubt1 - numSubt2
 
-                      resulMult <- numMult1 * numMult2
-
-                      Escreval(numMult1, " x", numMult2, " = ", resulMult)
+                      Escreval(numSubt1, " -", numSubt2, " = ", resulSubt)
 fimalgoritmo
