@@ -73,7 +73,7 @@ leia(opcaoCaso)
                       leia(numSubt2)
                       Escreval(numSubt1, " -", numSubt2)
 
-                      resulSoma <- numSubt1 - numSubt2
+                      resulSubt <- numSubt1 - numSubt2
 
                       Escreval(numSubt1, " -", numSubt2, " = ", resulSubt)
                     //fim caso 2
@@ -93,9 +93,27 @@ leia(opcaoCaso)
                     //comeca caso 4
                     caso 4
                       Escreval(" =%= CALCULADORA DE DIVISÃO =%= ")
-                      leia(
+                      leia(numDivi1)
+                      
+                      Escreva(numDivi1, " % ")
+                      leia(numDivi2)
+                      Escreval(numDivi1, " %", numDivi2)
+                      
+                                                                                se (numDivi1 = 0) ou (numDivi2 = 0) entao
+                                                                                escreval("Divisão impossível! Erro ao dividir por 0.")
+                                                                                senao
+                      
+                      resulDivi <- numDivi1 / numDivi2
+                      
+                      Escreval(numDivi1, " %", numDivi2, " = ", resulDivi)
+                      
+                      outrocaso
+                      Escreval("APENAS NÚMEROS DE 1 A 4")
+                                                                                fimse
+                      
+                      fimescolha
                     //fim caso 4
-escreva(oa)
+
 
 
 fimalgoritmo
