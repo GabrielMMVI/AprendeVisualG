@@ -9,16 +9,13 @@ num : inteiro
 
 inicio
 
-Escreva("Digite um número: ")
-leia(num)
+num <- 1
 
-enquanto num > 10 faca
-
-Escreva("Digite um número: ")
-leia(num)
-
+enquanto num < 1000 faca
+num<-num + 1
+escreval(num)
 fimenquanto
 
-Escreval(num, " é menor que 10!")
+
 
 fimalgoritmo
