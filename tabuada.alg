@@ -6,23 +6,24 @@ algoritmo "tabuada"
 var
 
 num, fatormult, resul : real
+lim : inteiro
 
 inicio
 
 escreva("Digite um número para fazer a tabuada: ")
 leia(num)
-
 escreva("Digite o fator para multiplicar a tabuada: ")
 leia(fatormult)
 
+lim <- 0
 
-enquanto fatormult <> -1 faca
+enquanto lim <> fatormult + 1 faca
+resul <- lim * num
 
-resul <- num * fatorMult
+escreval(num, " x", lim, " =", resul)
+lim <- lim + 1
 
-Escreval(num, " x", fatormult, " =", resul)
-
-fatormult <- fatormult - 1
 fimenquanto
+
 
 fimalgoritmo
