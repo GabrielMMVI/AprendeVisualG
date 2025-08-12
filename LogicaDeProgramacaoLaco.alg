@@ -4,7 +4,6 @@ algoritmo "LogicaDeProgramacaoLaco"
 // Data : 12/08/2025
 // Seção de Declarações 
 var
-texto : caractere
 lim : inteiro
 inicio
 lim <- 5
