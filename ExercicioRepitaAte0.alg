@@ -1,4 +1,4 @@
-algoritmo "ExercicioRepitaAte0"
+algoritmo "Maior Num"
 // Função :
 // Autor :
 // Data : 12/08/2025
@@ -20,7 +20,7 @@ repita
 
 ate num = 0
 
-escreval(num2)
+escreval("O maior número é: "num2)
 
 
 
