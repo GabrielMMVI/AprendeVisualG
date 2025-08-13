@@ -10,7 +10,7 @@ soma, i : inteiro
 
 inicio
 
-para i de 1 ate 5 faca
+para i de 1 ate 5 faca //nesse para tem que ser o índice por que ele quem vai determinar em qual memória vai ser iniciada
 
      Escreva("Digite um número: ")
      leia(num [i])
