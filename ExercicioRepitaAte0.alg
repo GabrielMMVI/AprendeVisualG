@@ -20,7 +20,7 @@ repita
 
 ate num = 0
 
-escreval("O maior número é: "num2)
+escreval("O maior número é: ", num2)
 
 
 
