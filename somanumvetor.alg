@@ -18,14 +18,17 @@ para i de 1 ate 5 faca //nesse para tem que ser o índice por que ele quem vai de
 fimpara
  soma <- num[1] + num[2] + num[3] + num[4] + num[5]
  
- Escreval(" ", num[1])
- Escreval(" ", num[2])
- Escreval(" ", num[3])
- Escreval(" ", num[4])
- Escreval("+", num[5])
+ para i de 1 ate 4 faca
+ 
+ 
+ Escreval(" ", num[i])
+ fimpara
+ 
+ para i de 5 ate 5 faca
+ Escreval("+", num[i])
  Escreval("______")
  Escreval(soma)
-
+fimpara
 
 
 
