@@ -14,11 +14,13 @@ repita
       Escreva("Digite um número: ")
       leia(num)
 
-num2 <- num
+      se num > num2 entao
+      num2 <- num
+      fimse
 
 ate num = 0
 
-escreval()
+escreval(num2)
 
 
 
